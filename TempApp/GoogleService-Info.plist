@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>437107477072-t7sckdcdp1kogrms6ge1i3rni1g3ohqp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.437107477072-t7sckdcdp1kogrms6ge1i3rni1g3ohqp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDn0RqXME0IgMF_2vN3VZFqIaDSB_8yiWM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>437107477072</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>akezhan.mussa.TempApp</string>
+	<key>PROJECT_ID</key>
+	<string>temperature-26a3f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>temperature-26a3f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:437107477072:ios:6241ca8d0e85b775</string>
+	<key>DATABASE_URL</key>
+	<string>https://temperature-26a3f.firebaseio.com</string>
+</dict>
+</plist>

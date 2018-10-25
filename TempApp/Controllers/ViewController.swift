@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import EasyPeasy
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setup()
     }
-
-
+    
+    func setup(){
+        let graph = GraphView()
+        self.view.addSubview(graph)
+        graph.easy.layout(Top(0), Bottom(0), Width(self.view.frame.width), Height(self.view.frame.height))
+    }
+        
+    
 }
 
