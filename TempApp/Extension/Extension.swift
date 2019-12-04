@@ -18,7 +18,7 @@ extension UIView{
         v.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.3668298856)
         v.tag = 18121995
         window.addSubview(v)
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let indicator = UIActivityIndicatorView(style: .gray)
         indicator.frame = CGRect(origin: .zero, size: CGSize(width: 80, height: 80))
         indicator.center = v.center
         indicator.startAnimating()
@@ -30,6 +30,18 @@ extension UIView{
         window.viewWithTag(18121995)?.removeFromSuperview()
     }
     
+    func setGradientBackground(colorOne: UIColor, colorTwo: UIColor) {
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
+        gradientLayer.colors = [colorOne.cgColor, colorTwo.cgColor]
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.startPoint = CGPoint(x: 1.0, y: 1.0)
+        gradientLayer.endPoint = CGPoint(x: 0.0, y: 0.0)
+        
+        layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
 }
 
 extension UIViewController {
@@ -39,7 +51,7 @@ extension UIViewController {
         v.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.3668298856)
         v.tag = 18121995
         window.addSubview(v)
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        let indicator = UIActivityIndicatorView(style: .whiteLarge)
         indicator.frame = CGRect(origin: .zero, size: CGSize(width: 80, height: 80))
         indicator.center = v.center
         indicator.startAnimating()
